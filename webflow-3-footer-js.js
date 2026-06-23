@@ -2,7 +2,6 @@
   TURRITO.AI — BLOCK 3 OF 3: FOOTER JAVASCRIPT
   Paste into: Webflow → Pages → (gear icon) → Custom Code → "Before </body> tag"
   ============================================================ -->
-<script>
 // scrollToScene must be global so onclick attributes can reach it
 function scrollToScene(n) {
   const targets = ['#scene1','#scene2-wrapper','#scene3-s1-wrapper','#scene4-wrapper','#scene5-wrapper'];
@@ -1225,4 +1224,3 @@ window.addEventListener('load', function () {
 
   }, 300); // end setTimeout
 }); // end window.load
-</script>
